@@ -17,5 +17,6 @@ Learning React and by building a Movie Discovery App
 - [x] Popular (TV, Movie)
 - [x] Top Rated (TV)
 - [x] Airing Today (TV)
-- [ ] TV Show Detail
-- [ ] Movie Detail
+- [x] TV Show Detail
+- [x] Movie Detail
+- [x] Search (Movie, TV)
