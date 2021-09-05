@@ -39,16 +39,16 @@ const SLink = styled(Link)`
 // withRouter : Route로부터 props를 가져올 수 있음
 export default withRouter(({ location: { pathname }}) => (
   <Header>
-  <List>
-    <Item current={pathname === "/"}>
-      <SLink to="/">Movies</SLink>
-    </Item>
-    <Item current={pathname === "/tv"}>
-      <SLink to="/tv">TV</SLink>
-    </Item>
-    <Item current={pathname === "/search"}>
-      <SLink to="/search">Search</SLink>
-    </Item>
-  </List>
-</Header>
+    <List>
+      <Item current={pathname === "/"}>
+        <SLink to="/">Movies</SLink>
+      </Item>
+      <Item current={pathname === "/tv"}>
+        <SLink to="/tv">TV</SLink>
+      </Item>
+      <Item current={pathname === "/search"}>
+        <SLink to="/search">Search</SLink>
+      </Item>
+    </List>
+  </Header>
 ));
