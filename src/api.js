@@ -1,5 +1,6 @@
 import axois from "axios";
 
+// call api
 const api = axois.create({
   baseURL: "https://api.themoviedb.org/3/",
   params : {
@@ -8,6 +9,7 @@ const api = axois.create({
   }
 });
 
+// movie datas in api
 export const movieApi = {
   nowPlaying: () => api.get("movie/now_playing"),
   upcoming: () => api.get("movie/upcoming"),
@@ -24,6 +26,7 @@ export const movieApi = {
   })
 }
 
+// tv show datas in api
 export const TVApi = {
   topRated: () => api.get("tv/top_rated"),
   popular: () => api.get("tv/popular"),
