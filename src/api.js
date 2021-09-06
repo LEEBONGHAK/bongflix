@@ -19,7 +19,7 @@ export const movieApi = {
       append_to_response: "videos"
     }
   }),
-  search: term => api.get("search/tv", {
+  search: term => api.get("search/movie", {
     params: {
       query: term
     }
@@ -36,7 +36,7 @@ export const TVApi = {
       append_to_response: "videos"
     }
   }),
-  search: term => api.get("search/movie", {
+  search: term => api.get("search/tv", {
     params: {
       query: term
     }

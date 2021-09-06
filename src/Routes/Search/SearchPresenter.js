@@ -2,8 +2,9 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
-import Loader from '../../Components/Loader';
 import Section from '../../Components/Section';
+import Loader from '../../Components/Loader';
+import Message from '../../Components/Message'
 
 const Container = styled.div`
   padding: 0px 20px;
@@ -38,14 +39,16 @@ const SearchPresenter = ({
       <>
         {movieResults && movieResults.length > 0 && (
         <Section title="Movie Results">
-            {movieResults.map(movie => (<span key={movie.id}>{movie.name}</span>))}
+            {movieResults.map(movie => (<span key={movie.id}>{movie.title}</span>))}
           </Section>
         )}
         {tvResults && tvResults.length > 0 && (
           <Section title="TV Show Results">
-            {tvResults.map(show => (<span key={show.id}>{show.title}</span>))}
+            {tvResults.map(show => (<span key={show.id}>{show.name}</span>))}
           </Section>
         )}
+        {error && <Message text={error} color="#e74c3c" />}
+        {movieResults && tvResults && movieResults.length === 0 && tvResults.length === 0 && <Message text="Nothing Found" color="#95a5a6" />}
       </>
     )}
   </Container>

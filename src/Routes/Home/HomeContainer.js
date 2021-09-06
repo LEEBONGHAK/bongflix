@@ -16,7 +16,7 @@ export default class extends React.Component {
       const { data: { results: nowPlaying } } = await movieApi.nowPlaying();
       const { data: { results: upcoming } } = await movieApi.upcoming();
       const { data: { results: popular } } = await movieApi.popular();
-
+      
       this.setState({   // state의 데이터를 api로 얻은 데이터로 바꿔줌
         nowPlaying,
         upcoming,
