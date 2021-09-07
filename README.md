@@ -20,3 +20,11 @@ Learning React and by building a Movie Discovery App
 - [x] TV Show Detail
 - [x] Movie Detail
 - [x] Search (Movie, TV)
+
+## Code Challenges
+
+- [ ] IMDB Link
+- [ ] Tabs inside of Movie / Show Details (Youtube videos, Production Company & Contries)
+- [ ] Collections Link
+- [ ] /collections Route
+- [ ] On TV shows, show and creators
