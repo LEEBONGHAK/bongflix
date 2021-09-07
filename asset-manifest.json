@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/github.io/bongflix/static/js/main.8a4a3810.chunk.js",
-    "main.js.map": "/github.io/bongflix/static/js/main.8a4a3810.chunk.js.map",
+    "main.js": "/github.io/bongflix/static/js/main.b6eca3a9.chunk.js",
+    "main.js.map": "/github.io/bongflix/static/js/main.b6eca3a9.chunk.js.map",
     "runtime-main.js": "/github.io/bongflix/static/js/runtime-main.72bb71a4.js",
     "runtime-main.js.map": "/github.io/bongflix/static/js/runtime-main.72bb71a4.js.map",
-    "static/js/2.624f778f.chunk.js": "/github.io/bongflix/static/js/2.624f778f.chunk.js",
-    "static/js/2.624f778f.chunk.js.map": "/github.io/bongflix/static/js/2.624f778f.chunk.js.map",
+    "static/js/2.70383bb8.chunk.js": "/github.io/bongflix/static/js/2.70383bb8.chunk.js",
+    "static/js/2.70383bb8.chunk.js.map": "/github.io/bongflix/static/js/2.70383bb8.chunk.js.map",
     "index.html": "/github.io/bongflix/index.html",
-    "static/js/2.624f778f.chunk.js.LICENSE.txt": "/github.io/bongflix/static/js/2.624f778f.chunk.js.LICENSE.txt",
+    "static/js/2.70383bb8.chunk.js.LICENSE.txt": "/github.io/bongflix/static/js/2.70383bb8.chunk.js.LICENSE.txt",
     "static/media/noPosterSmall.png": "/github.io/bongflix/static/media/noPosterSmall.ea2ad102.png"
   },
   "entrypoints": [
     "static/js/runtime-main.72bb71a4.js",
-    "static/js/2.624f778f.chunk.js",
-    "static/js/main.8a4a3810.chunk.js"
+    "static/js/2.70383bb8.chunk.js",
+    "static/js/main.b6eca3a9.chunk.js"
   ]
 }
